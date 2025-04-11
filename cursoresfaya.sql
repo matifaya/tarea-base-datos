@@ -76,9 +76,43 @@ select * from cancelled_orders;
 -- 11
 
 delimiter //
-create procedure creation(out canti int)
+create procedure ej11(in clienteNum int ) 
 	begin 
+    declare hayFilas boolean default 1;
+	declare variable1,variable3 int ;
+    declare comentario,variable2 text;
+    declare totalOrden int ;
+    declare cursorO cursor for select orderNumber,comments,customerNumber from orders join orderdetails on orderLineNumber = orders.orderNumber where clienteNum=customerNumber;
+	declare continue handler for not found set hayFilas=0;
+    open cursorO;
+    bucle:loop
+			fetch cursorO into variable1,variable2,variable3;
+            if(hayFilas=0) then
+				leave bucle;
+            end if;
+            set totalOrden=sum(quantituOrdered*priceEach);
+            if variable2=NULL then
+				set variable2=concat("El total de la orden es",totalOrden);
+            end if;
+            end loop bucle;
+            select variable2 from cursorO;
+            close cursorO;
+
+end//
+delimiter ;
+
+call ej11(@var);
+select @var;
+
+
+delimiter //
+create procedure ej12(out )
 	
+
+
+
+
+
 
 
 
