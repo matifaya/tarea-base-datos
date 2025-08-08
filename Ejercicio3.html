@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="ej.css">
+<html>
+<head>
+  <title>Mi página web</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Encabezado principal</h1>
+
+   <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Apellido</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+        <label for="exampleInputPassword1" class="form-label">Edad</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+        <label for="exampleInputPassword1" class="form-label">Numero de Telefono</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  
+
+</body>
+<script>
+  const button=document.getElementById("circulo");
+  function cambiarColor(){
+    console.log("entre");
+    if(button.style.backgroundColor!="red"){
+          button.style.backgroundColor="red";
+    }
+    else if(button.style.backgroundColor!="green"){
+          button.style.backgroundColor="green";
+    }
+  }
+</script>
+</html>
