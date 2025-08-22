@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Supermercado </title>
+</head>
+<body>
+    <h1> Lista de Supermercado  </h1>
+
+    <input type="text" id="itemInput" placeholder="Escribí un producto ">
+    <button id="addBtn">Agregar</button>
+
+    <ul id="lista">
+    </ul>
+
+    <script>
+        const input = document.getElementById("itemInput");
+        const agregar = document.getElementById("addBtn");
+        const lista = document.getElementById("lista");
+
+        agregar.addEventListener("click",function() {
+            const texto = input.value.trim();
+
+            if (texto === "") {
+                alert("No podés agregar un campo vacío.");
+                
+            }
+
+            const li = document.createElement("li");
+            li.textContent = texto + " ";
+
+            const eliminar = document.createElement("button");
+            eliminar.textContent = "";
+            eliminar.addEventListener("click", () => {
+                lista.removeChild(li);
+            });
+
+            li.appendChild(eliminar);
+            lista.appendChild(li);
+        });
+    </script>
+</body>
+</html>
