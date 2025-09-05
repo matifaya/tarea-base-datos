@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "68baed87a34bfaaf365747b3"
+  },
+  "nombre": "Cálculo I",
+  "codigo": "12389y",
+  "horas_semanales": 6,
+  "profesores": [
+    {
+      "$oid": "68baecf3a34bfaaf365747b0"
+    },
+    {
+      "$oid": "68baecf3a34bfaaf365747b1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68baed87a34bfaaf365747b4"
+  },
+  "nombre": "Física General",
+  "codigo": "4029309",
+  "horas_semanales": 5,
+  "profesores": [
+    {
+      "$oid": "68baecf3a34bfaaf365747b1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68baed87a34bfaaf365747b5"
+  },
+  "nombre": "Programación I",
+  "codigo": "089234",
+  "horas_semanales": 4,
+  "profesores": [
+    {
+      "$oid": "68baecf3a34bfaaf365747b2"
+    }
+  ]
+}]

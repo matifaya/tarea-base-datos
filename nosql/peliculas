@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "68baec1ca34bfaaf365747ad"
+  },
+  "titulo": "Inception",
+  "año": 2010,
+  "genero": "Ciencia ficción",
+  "duracion": 148,
+  "actores": [
+    {
+      "$oid": "68baec13a34bfaaf365747aa"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68baec1ca34bfaaf365747ae"
+  },
+  "titulo": "Lost in Translation",
+  "año": 2003,
+  "genero": "Drama",
+  "duracion": 102,
+  "actores": [
+    {
+      "$oid": "68baec13a34bfaaf365747ab"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68baec1ca34bfaaf365747af"
+  },
+  "titulo": "No Country for Old Men",
+  "año": 2007,
+  "genero": "Thriller",
+  "duracion": 122,
+  "actores": [
+    {
+      "$oid": "68baec13a34bfaaf365747ac"
+    }
+  ]
+}]
