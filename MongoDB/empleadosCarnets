@@ -1,0 +1,39 @@
+db.Empleados.insertMany([
+  {
+    nombre: "Joaquin",
+    apellido: "Gomez",
+    email: "joaquin.gomez@gmail.com",
+    fecha_nacimiento: ISODate("1990-05-12"),
+    puesto: "Desarrollador",
+    carnet: {
+      numero_serie: "8997246983",
+      fecha_emision: ISODate("2023-01-10"),
+      fecha_vencimiento: ISODate("2026-01-10")
+    }
+  },
+  {
+    nombre: "Aylen",
+    apellido: "Juarez",
+    email: "aylen.juarez@gmail.com",
+    fecha_nacimiento: ISODate("1985-11-23"),
+    puesto: "Recursos Humanos",
+    carnet: {
+      numero_serie: "678904376",
+      fecha_emision: ISODate("2022-10-15"),
+      fecha_vencimiento: ISODate("2025-10-15")
+    }
+  },
+  {
+    nombre: "Camila",
+    apellido: "Amignone",
+    email: "camila.amignone@gmail.com",
+    fecha_nacimiento: ISODate("1983-01-02"),
+    puesto: "Gerente",
+    carnet: {
+      numero_serie: "6787237683",
+      fecha_emision: ISODate("2024-03-14"),
+      fecha_vencimiento: ISODate("2027-03-14")
+    }
+  }
+])
+

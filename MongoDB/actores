@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "68baec13a34bfaaf365747aa"
+  },
+  "nombre": "Leonardo",
+  "apellido": "DiCaprio",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "153360000000"
+    }
+  },
+  "nacionalidad": "Estadounidense"
+},{
+  "_id": {
+    "$oid": "68baec13a34bfaaf365747ab"
+  },
+  "nombre": "Scarlett",
+  "apellido": "Johansson",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "469929600000"
+    }
+  },
+  "nacionalidad": "Estadounidense"
+},{
+  "_id": {
+    "$oid": "68baec13a34bfaaf365747ac"
+  },
+  "nombre": "Javier",
+  "apellido": "Bardem",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-26438400000"
+    }
+  },
+  "nacionalidad": "Española"
+}]

@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "68bae149a34bfaaf365747a7"
+  },
+  "nombre": "Marcos",
+  "apellido": "Vazquez",
+  "email": "marcos.vazquez@gmail.com",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-89424000000"
+    }
+  },
+  "clave": "pepito123",
+  "direcciones": [
+    {
+      "calle": "Tamborini 4578",
+      "ciudad": "Villa Maipú",
+      "codigo_postal": 1236,
+      "provincia": "Córdoba"
+    },
+    {
+      "calle": "Constituyentes 1231",
+      "ciudad": "Villa Urquiza",
+      "codigo_postal": 2346,
+      "provincia": "Buenos Aires"
+    }
+  ],
+  "pedidos": [
+    {
+      "fecha": {
+        "$date": {
+          "$numberLong": "1756944000000"
+        }
+      },
+      "monto_total": 50000,
+      "productos": [
+        {
+          "cantidad": 2,
+          "precio_unitario": 25000
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68bae149a34bfaaf365747a8"
+  },
+  "nombre": "Josefina",
+  "apellido": "Tablada",
+  "email": "josefina.tablada@gmail.com",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "597801600000"
+    }
+  },
+  "clave": "pepesito123213",
+  "direcciones": [
+    {
+      "calle": "San Martín 452",
+      "ciudad": "Rosario",
+      "codigo_postal": 2000,
+      "provincia": "Santa Fe"
+    },
+    {
+      "calle": "Rivadavia 3200",
+      "ciudad": "San Miguel",
+      "codigo_postal": 1663,
+      "provincia": "Buenos Aires"
+    }
+  ],
+  "pedidos": [
+    {
+      "fecha": {
+        "$date": {
+          "$numberLong": "1756771200000"
+        }
+      },
+      "monto_total": 12000,
+      "productos": [
+        {
+          "cantidad": 4,
+          "precio_unitario": 3000
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68bae149a34bfaaf365747a9"
+  },
+  "nombre": "Carolina",
+  "apellido": "Suárez",
+  "email": "caro.suarez@gmail.com",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "806284800000"
+    }
+  },
+  "clave": "caroPass99",
+  "direcciones": [
+    {
+      "calle": "Belgrano 980",
+      "ciudad": "Mendoza",
+      "codigo_postal": 5500,
+      "provincia": "Mendoza"
+    },
+    {
+      "calle": "Mitre 110",
+      "ciudad": "San Rafael",
+      "codigo_postal": 5600,
+      "provincia": "Mendoza"
+    }
+  ],
+  "pedidos": [
+    {
+      "fecha": {
+        "$date": {
+          "$numberLong": "1756684800000"
+        }
+      },
+      "monto_total": 100000,
+      "productos": [
+        {
+          "cantidad": 10,
+          "precio_unitario": 10000,
+          "_id": {
+            "$oid": "68bae3d1cae927c3fa6b2261"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "68bae3fecae927c3fa6b2262"
+      }
+    }
+  ]
+}]

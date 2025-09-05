@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "68baf2f2a34bfaaf365747b6"
+  },
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "dni": "12345678",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "326764800000"
+    }
+  },
+  "telefono": "3512345678"
+},{
+  "_id": {
+    "$oid": "68baf2f2a34bfaaf365747b7"
+  },
+  "nombre": "María",
+  "apellido": "González",
+  "dni": "87654321",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "659059200000"
+    }
+  },
+  "telefono": "3519876543"
+}]

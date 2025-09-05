@@ -1,0 +1,32 @@
+2)
+db.usuariosJp.find({ edad: { $gt: 25 } }, { nombre: 1, apellido: 1, _id: 0 })
+ 
+3)
+db.usuariosJp.find({ compras:{$size: 2}})
+
+4)
+db.usuariosJp.find({}, {"compras.monto":1, _id: 0 })
+ 
+5)
+db.usuariosJp.find({"compras.productos.5":{$exists:true}})
+
+6)
+db.usuariosJp.find({"compras.id_compra":1}, {"compras.productos": 1})
+
+7)
+db.usuariosJp.updateOne({ _id: 2 },{$push: {compras: {id_compra: 100, monto: 2000, productos: ["cafetera", "microondas"]}}})
+
+8)
+db.usuariosJp.updateOne({nombre: "Lucas", apellido: "Martinez"},{$set: {mail: "lucas.m@gmail.com"}})
+
+9)
+db.usuariosJp.find({}, {"compras.monto":1, "compras.id_compra":1}).$sort({monto-1}).$limit({3})
+
+10)
+db.usuariosJp.find({"compras.productos":{$ne:"televisor"}}, {"nombre":1, "mail":1, "edad":1}).sort({"edad": -1})
+
+11)
+db.usuariosJp.find({"compras.productos":"laptop"}, {"nombre":1})
+
+12)
+db.usuariosJp.find({"compras":{"$elemMatch":{"monto":{$gt: 250}, "productos":"televisor"}}}, {"nombre":1, "apellido":1})

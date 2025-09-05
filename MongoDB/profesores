@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "68baecf3a34bfaaf365747b0"
+  },
+  "nombre": "Ana",
+  "apellido": "González",
+  "email": "ana.gonzalez@universidad.com",
+  "titulo": "Licenciada en Matemática"
+},{
+  "_id": {
+    "$oid": "68baecf3a34bfaaf365747b1"
+  },
+  "nombre": "Carlos",
+  "apellido": "Martínez",
+  "email": "carlos.martinez@universidad.com",
+  "titulo": "Doctor en Física"
+},{
+  "_id": {
+    "$oid": "68baecf3a34bfaaf365747b2"
+  },
+  "nombre": "Lucía",
+  "apellido": "Ramírez",
+  "email": "lucia.ramirez@universidad.com",
+  "titulo": "Ingeniera en Computación"
+}]

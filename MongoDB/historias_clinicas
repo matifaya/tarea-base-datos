@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "68baf3a1a34bfaaf365747b8"
+  },
+  "numero_historia": "HC001",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1673308800000"
+    }
+  },
+  "observaciones_generales": "Paciente con hipertensión controlada",
+  "paciente_id": {
+    "$oid": "68baf2f2a34bfaaf365747b6"
+  },
+  "registros_medicos": [
+    {
+      "fecha_consulta": {
+        "$date": {
+          "$numberLong": "1676419200000"
+        }
+      },
+      "diagnostico": "Gripe",
+      "tratamiento": "Reposo y paracetamol",
+      "medico": "Dr. López"
+    },
+    {
+      "fecha_consulta": {
+        "$date": {
+          "$numberLong": "1687219200000"
+        }
+      },
+      "diagnostico": "Hipertensión leve",
+      "tratamiento": "Ajuste de medicación",
+      "medico": "Dra. Fernández"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "68baf3a1a34bfaaf365747b9"
+  },
+  "numero_historia": "HC002",
+  "fecha_inicio": {
+    "$date": {
+      "$numberLong": "1709596800000"
+    }
+  },
+  "observaciones_generales": "Paciente diabética tipo 2",
+  "paciente_id": {
+    "$oid": "68baf2f2a34bfaaf365747b7"
+  },
+  "registros_medicos": [
+    {
+      "fecha_consulta": {
+        "$date": {
+          "$numberLong": "1712707200000"
+        }
+      },
+      "diagnostico": "Control de glucosa",
+      "tratamiento": "Revisión dieta y medicación",
+      "medico": "Dra. Gómez"
+    }
+  ]
+}]

@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "68baddd0a34bfaaf365747a4"
+  },
+  "nombre": "Joaquin",
+  "apellido": "Gomez",
+  "email": "joaquin.gomez@gmail.com",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "642470400000"
+    }
+  },
+  "puesto": "Desarrollador",
+  "carnet": {
+    "numero_serie": "8997246983",
+    "fecha_emision": {
+      "$date": {
+        "$numberLong": "1673308800000"
+      }
+    },
+    "fecha_vencimiento": {
+      "$date": {
+        "$numberLong": "1768003200000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "68baddd0a34bfaaf365747a5"
+  },
+  "nombre": "Aylen",
+  "apellido": "Juarez",
+  "email": "aylen.juarez@gmail.com",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "501552000000"
+    }
+  },
+  "puesto": "Recursos Humanos",
+  "carnet": {
+    "numero_serie": "678904376",
+    "fecha_emision": {
+      "$date": {
+        "$numberLong": "1665792000000"
+      }
+    },
+    "fecha_vencimiento": {
+      "$date": {
+        "$numberLong": "1760486400000"
+      }
+    }
+  }
+},{
+  "_id": {
+    "$oid": "68baddd0a34bfaaf365747a6"
+  },
+  "nombre": "Camila",
+  "apellido": "Amignone",
+  "email": "camila.amignone@gmail.com",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "410313600000"
+    }
+  },
+  "puesto": "Gerente",
+  "carnet": {
+    "numero_serie": "6787237683",
+    "fecha_emision": {
+      "$date": {
+        "$numberLong": "1710374400000"
+      }
+    },
+    "fecha_vencimiento": {
+      "$date": {
+        "$numberLong": "1804982400000"
+      }
+    }
+  }
+}]
