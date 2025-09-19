@@ -1,0 +1,5 @@
+#3
+db.Restaurante.countDocuments()
+#6
+db.Promociones.find({"pocentaje_descuento":0.15},{"id_restaurante":1})
+db.Restaurante.find({"id":1},{})
